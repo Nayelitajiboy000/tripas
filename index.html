@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <script>
+function comprobarClave(){
+      clave1 = document.f1.clave1.value
+      clave2 = document.f1.clave2.value
+
+      if (clave1 == "paty" && clave2 == "zapeta"){
+      alert("los datos coinciden...\n Bienvenido.");
+      var href ="dos.html";
+      window.location=href;
+    }
+
+    else{
+      alert("las dos claves son distintas...\n intente nuevamente.");
+      var href = "index.html";
+      window.location=href;
+    };
+
+  }
+</script>
+</head>
+
+<body background="pathy.jpg" bgcolor="339900">
+<title></title>
+  <link rel="stylesheet"
+ type="sol.css/css"
+ href="sol.css"
+
+  <article id="grt">
+
+ <br>   
+  <h1> <center><font size="10" COLOR="black">BIENVENIDO</font> </center></h1>
+  <center><br>
+</article>
+</section>
+</nav>
+
+  <br>
+  <form action="" name="f1" style="text-align: center;text-indent: unset; ">
+    USUARIO:<br> <input type="password" name ="clave1" size="10">
+    <br>
+    PON TU CLAVE: <br> <input type="password" name ="clave2" size="10">
+    <br>
+    <input type="button" value=" Verificar si son iguales "  onclick="comprobarClave()  "
+    <center><p><font size="5" COLOR="black">Usuario</font>:Paty y Joselin  <br> clave:Brito Zapeta </p></center>
+
+  </form>
+
+</article>
+</section>
+</center>   
+ </body>
+ </html>
